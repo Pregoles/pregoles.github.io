@@ -1,0 +1,408 @@
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic|Francois+One);
+
+body {font:normal 16px/22px 'Carrois Gothic',Arial,Helvetica;	background:#111;color: #ccc;}
+
+h1,h2,h3,h4,h5,h6{ font-weight:normal;padding: 0;margin: 0;color: #fff;}
+h1,h2,h3{ font-family: 'Francois One',Arial,Helvetica;text-transform: uppercase;}
+h4,h5,h6{ font-family: 'Carrois Gothic',Arial,Helvetica;color: #ccc;}
+
+h3{font-size: 28px;margin-bottom: 20px;color: #666;}
+h3 span{font-size: 24px; }
+h4{font-size: 23px; margin-bottom:20px;line-height:30px;}
+h5{font-size: 20px;}
+
+small{color: #777;font-size: 13px;}
+
+p{margin-bottom: 25px;}
+
+blockquote {padding: 0px 20px;margin: 0 0 20px;border-left: 5px solid #aaa;font-size: 14px;line-height: 22px;font-style: italic;font-family: georgia;}
+
+.spacer{padding:55px 0 0 0;}
+.center{text-align: center;}
+.thumbnail{ background-color:#fff;}
+        .containere {
+            max-width: 32rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+        }
+        hr {
+            display: block;
+            width: 7rem;
+            height: 1px;
+            margin: 2.5rem 0;
+            background-color: #eee;
+            border: 0;
+        }
+      
+
+/*home*/
+.homeinfo{padding:230px 0 80px 0;}
+.homeinfo .player{margin-top: 70px;position: relative;}
+.homeinfo .player img.graphics{position: absolute;bottom: 167px;right: -24px;}
+.blockblack{background:rgba(0,0,0,0.8); border-radius: 10px; padding: 25px; }
+.fronttext h2{font-size:80px; line-height:10px;display: inline-block;padding:-60px 10px;}
+.fronttext p{margin:0;background-color: rgba(0,0,0,0.7);display: inline-block;padding: 10px;}
+.overlay{z-index: 100;position: relative;}
+/*home*/
+
+/*color*/
+.bgcolor{background-color: #f2ab00;}
+.textcolor{color: #f2ab00;}
+a{color:#f2ab00; text-decoration:none}
+a:hover{color:#fff;text-decoration:none}
+/*color*/
+
+
+/*nav*/
+.navbar-brand{padding: 10px 15px;}
+.navbar-nav > li > a{font-size: 14px;}
+.navbar-inverse{background: #000;border:none;}
+/*nav*/
+
+
+
+/*releases*/
+.releases{margin-bottom: 20px;}
+.releases .album{background-color: #222;margin-bottom: 30px;}
+.releases .album .albumdetail{padding: 10px;}
+.releases .album .albumdetail h5{margin-bottom: 10px;}
+.releases .album .albumdetail a{font-size:14px; }
+/*releases*/
+
+/*blog*/
+.blogevent{color: #ccc;}
+.blogevent ul{padding: 0; list-style: none; margin-top: 35px;}
+.blogevent ul li{font-size: 13px;}
+.blogevent ul li p{margin: 0;line-height: 18px;}
+
+.events ul li{background-color: #191919;margin-bottom: 1px;}
+.events ul li h5{margin: 7px 0;}
+.events ul li .date{text-align: center;line-height: 38px;color: #444;text-shadow: 0px -1px 0px #000;padding-top: 10px;padding-bottom: 10px;background-color: #111}
+.events ul li .date b{display: block;font-size: 30px;}
+.events ul li .date span{font-size: 22px;}
+
+
+.ourblog ul li{margin-bottom: 20px;}
+.ourblog ul li img{float: left; margin-right: 20px;}
+.ourblog ul li .blogtext{overflow: hidden;}
+/*blog*/
+
+
+
+
+/*modal*/
+.modal-dialog{max-width: 800px; width: 95%;}
+.modal-content{overflow: auto; padding:0 20px;color: #444;}
+.modal-content h2{color: #222;margin: 15px 0;}
+button.close{position: absolute;right: 0;background: #FFF;width: 25px;height: 25px;line-height: 9px;}
+#blog small{margin-bottom: 10px;display: block;}
+/*modal*/
+
+
+
+
+
+/*contact*/
+.contactform textarea,.contactform input{width: 100%;padding:2%;border:1px solid #ccc;margin-bottom: 20px;border-radius: 5px;outline: none;}
+.contactform .map{border:none;box-shadow:0;margin-top: 50px;}
+.contactform button{border:none;width: 100%; padding: 7px 0;font-size: 25px;}
+.contactform iframe{float: left;}
+/*contact*/
+
+
+#footer{background-color: #000; padding: 5px 0; color: #fff; font-size: 14px;color: #aaa;margin-top: 50px; z-index: 100;position: relative;}
+
+
+/*background slider*/
+.carousel{position: fixed; top: 0; left: 0;right: 0;bottom: 0; z-index:10;width: 100%;}
+.carousel .item {-webkit-transition: opacity 2s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;}
+.carousel .active.left {left:0;opacity:0;z-index:2;}
+.carousel .next {left:0;opacity:1;z-index:1;}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{width: 100%;}
+/*background slider*/
+
+/*animation*/
+#about,.album,.blogevent ul li,h3,h4{visibility: hidden;}
+.animated{visibility: visible !important;}
+/*animation*/
+
+@media (max-width: 700px) {
+	.homeinfo{padding-top: 100px;}
+	.events ul li,.events ul li .date{background: none;}
+	.events ul li .date b{display: inline;font-size: 22px;border-right: 1px solid #333;padding-right: 10px;margin-right: 10px;}
+}
+
+/* Font Family
+================================================== */
+
+@import url("//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400");
+
+
+/* Desktop
+================================================== */
+
+.container { position:relative; margin:0 auto; width:900px; }
+.column { width:inherit; }
+
+
+/* Tablet (Portrait)
+================================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.container { width:556px; }
+}
+
+
+/* Mobile (Portrait)
+================================================== */
+
+@media only screen and (max-width: 767px) {
+.container { width:300px; }
+}
+
+
+/* Mobile (Landscape)
+================================================== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container { width:420px; }
+}
+
+
+/* CSS Reset
+================================================== */
+
+html,body,div,span,h1,h6,p,a,ul,li {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+body { line-height:1; }
+ul { list-style:none; }
+
+
+/* Basic Styles
+================================================== */
+
+html,body {
+-webkit-font-smoothing:antialiased;
+-webkit-text-size-adjust:100%;
+background-color:#111;
+color:#C8C7C8;
+font:20px/24px "Yanone Kaffeesatz", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight:300;
+padding:5px 0;
+}
+
+* {
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+-webkit-tap-highlight-color:transparent;
+}
+
+
+/* Typography
+================================================== */
+
+h1,h6,p { color:#808080; font-weight:200; }
+h1 { font-size:42px; line-height:44px; margin:20px 0 0; }
+h6 { font-size:18px; line-height:20px; margin:4px 0 20px; }
+p { font-size:18px; line-height:20px; margin:0 0 2px; }
+
+
+/* Links
+================================================== */
+
+a,a:visited { color:#95B9C7; outline:0; text-decoration:underline; }
+a:hover,a:focus { color:#bbb; }
+p a,p a:visited { line-height:inherit; }
+
+
+/* Misc.
+================================================== */
+
+.add-bottom { margin-bottom:20px !important; }
+.left { float:left; }
+.right { float:right; }
+.center { text-align:center; }
+
+
+/* Custom Styles
+================================================== */
+
+/* Highlight Styles */
+::selection { background-color:#262223; color:#444; }
+
+
+/* Audio Player Styles
+================================================== */
+
+/* Default / Desktop / Firefox */
+audio { margin:0 15px 0 14px; width:670px; }
+#mainwrap { box-shadow:0 0 6px 1px rgba(0,0,0,.25); }
+#audiowrap { background-color:#231F20; margin:0 auto; }
+#plwrap { margin:0 auto; }
+#tracks { position:relative; text-align:center; }
+#nowPlay { display:inline; }
+#npTitle { margin:0; padding:21px; text-align:right; }
+#npAction { padding:21px; position:absolute; }
+#plList { margin:0; }
+#plList li { background-color:#231F20; cursor:pointer; display:block; margin:0; padding:21px 0; }
+#plList li:hover { background-color:#262223; }
+.plItem { position:relative; }
+.plTitle { left:50px; overflow:hidden; position:absolute; right:65px; text-overflow:ellipsis; top:0; white-space:nowrap; }
+.plNum { padding-left:21px; width:25px; }
+.plLength { padding-left:21px; position:absolute; right:21px; top:0; }
+.plSel,.plSel:hover { background-color:#262223!important; cursor:default!important; }
+a[id^="btn"] { background-color:#231F20; color:#C8C7C8; cursor:pointer; display:inline-block; font-size:50px; margin:0; padding:21px 27px; text-decoration:none; }
+a[id^="btn"]:last-child { margin-left:-4px; }
+a[id^="btn"]:hover,a[id^="btn"]:active { background-color:#262223; }
+a[id^="btn"]::-moz-focus-inner { border:0; padding:0; }
+
+/* IE 9 */
+html[data-useragent*="MSIE 9.0"] audio { margin-left:9px; outline:none; width:680px; }
+html[data-useragent*="MSIE 9.0"] #audiowrap { background-color:#000; }
+html[data-useragent*="MSIE 9.0"] a[id^="btn"] { background-color:#000; }
+html[data-useragent*="MSIE 9.0"] a[id^="btn"]:hover { background-color:#080808; }
+html[data-useragent*="MSIE 9.0"] #plList li { background-color:#000; }
+html[data-useragent*="MSIE 9.0"] #plList li:hover { background-color:#080808; }
+html[data-useragent*="MSIE 9.0"] .plSel,
+html[data-useragent*="MSIE 9.0"] .plSel:hover { background-color:#080808!important; }
+
+/* IE 10 */
+html[data-useragent*="MSIE 10.0"] audio { margin-left:6px; width:687px; }
+html[data-useragent*="MSIE 10.0"] #audiowrap { background-color:#000; }
+html[data-useragent*="MSIE 10.0"] a[id^="btn"] { background-color:#000; }
+html[data-useragent*="MSIE 10.0"] a[id^="btn"]:hover { background-color:#080808; }
+html[data-useragent*="MSIE 10.0"] #plList li { background-color:#000; }
+html[data-useragent*="MSIE 10.0"] #plList li:hover { background-color:#080808; }
+html[data-useragent*="MSIE 10.0"] .plSel,
+html[data-useragent*="MSIE 10.0"] .plSel:hover { background-color:#080808!important; }
+
+/* IE 11 */
+html[data-useragent*="rv:11.0"] audio { margin-left:2px; width:695px; }
+html[data-useragent*="rv:11.0"] #audiowrap { background-color:#000; }
+html[data-useragent*="rv:11.0"] a[id^="btn"] { background-color:#000; }
+html[data-useragent*="rv:11.0"] a[id^="btn"]:hover { background-color:#080808; }
+html[data-useragent*="rv:11.0"] #plList li { background-color:#000; }
+html[data-useragent*="rv:11.0"] #plList li:hover { background-color:#080808; }
+html[data-useragent*="rv:11.0"] .plSel,
+html[data-useragent*="rv:11.0"] .plSel:hover { background-color:#080808!important; }
+
+/* All Apple Products */
+html[data-useragent*="Apple"] audio { margin:0; width:100%; }
+html[data-useragent*="Apple"] #audiowrap { background-color:#000; }
+html[data-useragent*="Apple"] a[id^="btn"] { background-color:#000; }
+html[data-useragent*="Apple"] a[id^="btn"]:hover { background-color:#080808; }
+html[data-useragent*="Apple"] #plList li { background-color:#000; }
+html[data-useragent*="Apple"] #plList li:hover { background-color:#080808; }
+html[data-useragent*="Apple"] .plSel,
+html[data-useragent*="Apple"] .plSel:hover { background-color:#080808!important; }
+
+/* IOS 7 */
+html[data-useragent*="OS 7"] body { color:#373837; }
+html[data-useragent*="OS 7"] audio { margin-left:3px; width:690px; }
+html[data-useragent*="OS 7"] #audiowrap { background-color:#e6e6e6; }
+html[data-useragent*="OS 7"] a[id^="btn"] { background-color:#e6e6e6; color:#373837; }
+html[data-useragent*="OS 7"] a[id^="btn"]:hover { background-color:#eee; }
+html[data-useragent*="OS 7"] #plList li { background-color:#e6e6e6; }
+html[data-useragent*="OS 7"] #plList li:hover { background-color:#eee; }
+html[data-useragent*="OS 7"] .plSel,
+html[data-useragent*="OS 7"] .plSel:hover { background-color:#eee!important; }
+
+/* IOS 8 */
+html[data-useragent*="OS 8"] body { color:#373837; }
+html[data-useragent*="OS 8"] audio { margin-left:6px; width:694px; }
+html[data-useragent*="OS 8"] #audiowrap { background-color:#e4e4e4; }
+html[data-useragent*="OS 8"] a[id^="btn"] { background-color:#e4e4e4; color:#373837; }
+html[data-useragent*="OS 8"] a[id^="btn"]:hover { background-color:#eee; }
+html[data-useragent*="OS 8"] #plList li { background-color:#e4e4e4; }
+html[data-useragent*="OS 8"] #plList li:hover { background-color:#eee; }
+html[data-useragent*="OS 8"] .plSel,
+html[data-useragent*="OS 8"] .plSel:hover { background-color:#eee!important; }
+
+/* IOS 9 */
+html[data-useragent*="OS 9"] body { color:#373837; }
+html[data-useragent*="OS 9"] audio { margin-left:6px; width:694px; }
+html[data-useragent*="OS 9"] #audiowrap { background-color:#d5d5d5; }
+html[data-useragent*="OS 9"] a[id^="btn"] { background-color:#d5d5d5; color:#373837; }
+html[data-useragent*="OS 9"] a[id^="btn"]:hover { background-color:#eee; }
+html[data-useragent*="OS 9"] #plList li { background-color:#d5d5d5; }
+html[data-useragent*="OS 9"] #plList li:hover { background-color:#eee; }
+html[data-useragent*="OS 9"] .plSel,
+html[data-useragent*="OS 9"] .plSel:hover { background-color:#eee!important; }
+
+/* Chrome */
+html[data-useragent*="Chrome"] body { color:white; }
+html[data-useragent*="Chrome"] audio {background-color:rgba(89,89,89,1); margin-left:9px; width:887px; }
+html[data-useragent*="Chrome"] #audiowrap { background-color:rgba(89,89,89,0.5); }
+html[data-useragent*="Chrome"] a[id^="btn"] { background-color:rgba(89,89,89,0.5); color:white; }
+html[data-useragent*="Chrome"] a[id^="btn"]:hover { background-color:black; }
+html[data-useragent*="Chrome"] #plList li { background-color:rgba(89,89,89,0.5); }
+html[data-useragent*="Chrome"] #plList li:hover { background-color:black; }
+html[data-useragent*="Chrome"] .plSel,
+html[data-useragent*="Chrome"] .plSel:hover { background-color:rgba(89,89,89,0.5)!important; }
+
+/* Chrome / Android / Tablet */
+html[data-useragent*="Chrome"][data-useragent*="Android"] body { color:#373837; }
+html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:4px; width:689px; }
+html[data-useragent*="Chrome"][data-useragent*="Android"] #audiowrap { background-color:#fafafa; }
+html[data-useragent*="Chrome"][data-useragent*="Android"] a[id^="btn"] { background-color:#fafafa; color:#373837; }
+html[data-useragent*="Chrome"][data-useragent*="Android"] a[id^="btn"]:hover { background-color:#eee; }
+html[data-useragent*="Chrome"][data-useragent*="Android"] #plList li { background-color:#aa2823; }
+html[data-useragent*="Chrome"][data-useragent*="Android"] #plList li:hover { background-color:#eee; }
+html[data-useragent*="Chrome"][data-useragent*="Android"] .plSel,
+html[data-useragent*="Chrome"][data-useragent*="Android"] .plSel:hover { background-color:#eee!important; }
+
+
+/* Audio Player Media Queries
+================================================== */
+
+/* Tablet Portrait */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+audio { width:526px; }
+html[data-useragent*="MSIE 9.0"] audio { width:536px; }
+html[data-useragent*="MSIE 10.0"] audio { width:543px; }
+html[data-useragent*="rv:11.0"] audio { width:551px; }
+html[data-useragent*="OS 7"] audio { width:546px; }
+html[data-useragent*="OS 8"] audio { width:550px; }
+html[data-useragent*="OS 9"] audio { width:550px; }
+html[data-useragent*="Chrome"] audio { width:533px; }
+html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:4px; width:545px; }
+}
+
+/* Mobile Landscape */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+audio { width:390px; }
+html[data-useragent*="MSIE 9.0"] audio { width:400px; }
+html[data-useragent*="MSIE 10.0"] audio { width:407px; }
+html[data-useragent*="rv:11.0"] audio { width:415px; }
+html[data-useragent*="OS 7"] audio { width:410px; }
+html[data-useragent*="OS 8"] audio { width:414px; }
+html[data-useragent*="OS 9"] audio { width:414px; }
+html[data-useragent*="Chrome"] audio { width:397px; }
+html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px; width:410px; }
+#npTitle { width:245px; }
+}
+
+/* Mobile Portrait */
+@media only screen and (max-width: 479px) {
+audio { width:270px; }
+html[data-useragent*="MSIE 9.0"] audio { width:280px; }
+html[data-useragent*="MSIE 10.0"] audio { width:287px; }
+html[data-useragent*="rv:11.0"] audio { width:295px; }
+html[data-useragent*="OS 7"] audio { width:290px; }
+html[data-useragent*="OS 8"] audio { width:294px; }
+html[data-useragent*="OS 9"] audio { width:294px; }
+html[data-useragent*="Chrome"] audio { width:277px; }
+html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px; width:290px; }
+#npTitle { width:167px; }
+}
