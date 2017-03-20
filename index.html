@@ -149,7 +149,7 @@
             </div>
             <div id="audiowrap">
                 <div id="audio0">
-                    <audio background-color=#95B9C7 controls="controls" preload id="audio4" controls="download">Your browser does not support HTML5 Audio!</audio>
+                    <audio background-color=#95B9C7 controls="controls" preload id="audio2" controls="download">Your browser does not support HTML5 Audio!</audio>
                 </div>
                 <div id="tracks">
                     <a id="btnPrev">&laquo;</a>
@@ -223,7 +223,7 @@ jQuery(function ($) {
             trackCount = tracks.length,
             npAction = $('#npAction'),
             npTitle = $('#npTitle'),
-            audio = $('#audio4').bind('play', function () {
+            audio = $('#audio2').bind('play', function () {
                 playing = true;
                 npAction.text('Lecture');
             }).bind('pause', function () {
