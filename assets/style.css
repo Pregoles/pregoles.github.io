@@ -366,7 +366,7 @@ html[data-useragent*="Chrome"] .plSel:hover { background-color:rgba(89,89,89,0.5
 /* Chrome */
 html[data-useragent*="Chrome"] body { color:white; }
 html[data-useragent*="Chrome"] audio {background-color:rgb(89,89,89); margin-left:9px; width:887px; }
-html[data-useragent*="Chrome"] #audiowrap { background-color:rgb(89,89,89)); }
+html[data-useragent*="Chrome"] #audiowrap { background-color:rgb(89,89,89); }
 html[data-useragent*="Chrome"] a[id^="btn"] { background-color:rgb(89,89,89); color:white; }
 html[data-useragent*="Chrome"] a[id^="btn"]:hover { background-color:rgb(160,62,62); }
 html[data-useragent*="Chrome"] #plList li { background-color:rgb(89,89,89); }
@@ -376,7 +376,7 @@ html[data-useragent*="Chrome"] .plSel:hover { background-color:rgb(89,89,89)!imp
 /* Chrome */
 html[data-useragent*="Chrome"] body { color:white; }
 html[data-useragent*="Chrome"] audio {background-color:rgb(89,89,89); margin-left:9px; width:887px; }
-html[data-useragent*="Chrome"] #audiowrap { background-color:rgb(89,89,89)); }
+html[data-useragent*="Chrome"] #audiowrap { background-color:rgb(89,89,89); }
 html[data-useragent*="Chrome"] a[id^="btn"] { background-color:rgb(89,89,89); color:white; }
 html[data-useragent*="Chrome"] a[id^="btn"]:hover { background-color:rgb(160,62,62); }
 html[data-useragent*="Chrome"] #plList li { background-color:rgb(89,89,89); }
