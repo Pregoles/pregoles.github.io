@@ -13,11 +13,6 @@
 	src:url('AncientMedium.ttf') format("truetype");
 }
 
-@font-face{
-	font-family: 'Gagaee';
-	src:url('got.ttf') format("truetype");
-}
-
 @import url(http://fonts.googleapis.com/css?family=Carrois+Gothic|Francois+One);
 
 body {font:normal 16px/22px Helvetica;	background:#111;color: #ccc;}
