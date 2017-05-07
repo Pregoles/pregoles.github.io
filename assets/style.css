@@ -16,7 +16,7 @@
 @import url(http://fonts.googleapis.com/css?family=Carrois+Gothic|Francois+One);
 
 body {font:normal 16px/22px Helvetica;	background:#111;color: #ccc;}
-
+.mySlides {display:none;}
 h1,h2,h3,h4,h5,h6{ font-weight:normal;padding: 0;margin: 0;color: #fff;}
 h1,h2{ font-family:'maFonte',Helvetica;text-transform: uppercase;}
 h3{ font-family:'maFonte',Helvetica;text-transform: uppercase;}
