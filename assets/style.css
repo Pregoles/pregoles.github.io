@@ -470,7 +470,7 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px
 }
 
 /* gestion des dimensions et débordement du conteneur */
-#slideshow .containerd {
+#slideshow .container {
     position:relative;
    width: 740px;
     height: 510px;
@@ -478,7 +478,7 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px
 }
     
 /* on prévoit un petit espace gris pour la timeline */
-#slideshow .containerd:after {
+#slideshow .container:after {
     position:absolute;
     bottom: 0; left:0;
     content: " ";
@@ -532,9 +532,9 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px
 */
 /* fonction d'animation, n'oubliez pas de prefixer ! */
 @keyframes slider {
-    0%, 20%, 100%   { left: 0 }
-    25%, 45%        { left: -100% }
-    50%, 70%        { left: -200% }
+    0%, 15%, 100%   { left: 0 }
+    35%, 50%        { left: -100% }
+    70%, 85%        { left: -200% }
     75%, 95%        { left: -300% }
 }
 
