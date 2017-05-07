@@ -29,6 +29,44 @@ h5{font-size: 20px;}
 
 small{color: #777;font-size: 13px;}
 
+@keyframes AutoSlide {
+	0%, 15%, 100% {
+		left: 0px; /*1ère image*/
+	}
+	35%, 50% {
+		left: -150px; /*2ème image*/
+	}
+	70%, 85% {
+		left: -300px; /*3ème image*/
+	}
+}
+
+#slideshow {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	margin:  20px auto;
+	overflow: hidden;
+}
+#sContent li {
+	display: inline;
+}
+
+
+#sContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 450px;
+	margin: 0;            
+	padding: 0;
+	
+	/*CSS3 keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
 p{margin-bottom: 25px;}
 
 blockquote {padding: 0px 20px;margin: 0 0 20px;border-left: 5px solid #aaa;font-size: 14px;line-height: 22px;font-style: italic;font-family: georgia;}
