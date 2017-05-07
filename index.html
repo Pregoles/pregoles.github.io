@@ -353,6 +353,15 @@ jQuery(function ($) {
     </div>
         
     <span id="timeline"></span>
+	
+	<div id="slideshow">
+	<ul id="sContent"><!--
+		--><li><img src="images/1.jpg" alt="Image bleue" /></li><!--
+		--><li><img src="images/4.jpg" alt="Image verte" /></li><!--
+		--><li><img src="images/dj2.jpg" alt="Image brune" /></li>
+	</ul>
+</div>
+	
 </section>
 
 
@@ -362,28 +371,6 @@ jQuery(function ($) {
 
 	
 
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="dj2.jpg" style="width:100%">
-  <img class="mySlides" src="triangle.png" style="width:100%">
-  <img class="mySlides" src="4.jpg" style="width:100%">
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
 
 	<!-- Vidéos -->
 
